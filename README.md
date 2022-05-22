@@ -5,11 +5,11 @@ This was a "mock" situation as an employee of Acme Corporation looking for ways 
 PART ONE INSTRUCTIONS:
 Everything Acme sells is considered a "Product", and must have the following attributes (variables that live "inside" the class):
 
--name (string with no default)
--price (integer with default value 10)
--weight (integer with default value 20)
--flammability (float with default value 0.5)
--identifier (integer – a randomly generated number from a uniform distribution ranging from 1000000 to 9999999.)
+ -name (string with no default)
+ -price (integer with default value 10)
+ -weight (integer with default value 20)
+ -flammability (float with default value 0.5)
+ -identifier (integer – a randomly generated number from a uniform distribution ranging from 1000000 to 9999999.)
 
 I wrote a Python class to model the above data, precise in field names and types. My class also had an _init_ constructor
 method. This all was tested in a Python REPL and saved in the acme.py file.
