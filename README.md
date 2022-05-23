@@ -26,13 +26,19 @@ PART TWO INSTRUCTIONS:
 Create methods in your class as follows:
 
   stealability(self) - calculates the price divided by the weight, and then returns a message:
+  
       if the ratio is less than 0.5 return "Not so stealable..."
+      
       if it is greater or equal to 0.5 but less than 1.0 return "Kinda stealable."
+      
       otherwise return "Very stealable!"
    
   -explode(self) - calculates the flammability times the weight, and then returns a message:
+  
       if the product (result of the multiplication operation) is less than 10 return "...fizzle."
+      
       if it is greater or equal to 10 but less than 50 return "...boom!"
+      
       and otherwise return "...BABOOM!!"
    
 
