@@ -7,15 +7,15 @@ PART ONE INSTRUCTIONS:
 
 Everything Acme sells is considered a "Product", and must have the following attributes (variables that live "inside" the class):
 
-  -name (string with no default)
+  1) name (string with no default)
  
-  -price (integer with default value 10)
+  2) price (integer with default value 10)
  
-  -weight (integer with default value 20)
+  3) weight (integer with default value 20)
  
-  -flammability (float with default value 0.5)
+  4) flammability (float with default value 0.5)
  
-  -identifier (integer – a randomly generated number from a uniform distribution ranging from 1000000 to 9999999.)
+  5) identifier (integer – a randomly generated number from a uniform distribution ranging from 1000000 to 9999999.)
 
 I wrote a Python class to model the above data, precise in field names and types. My class also had an _init_ constructor
 method. This all was tested in a Python REPL and saved in the acme.py file.
@@ -25,15 +25,15 @@ PART TWO INSTRUCTIONS:
 
 Create methods in your class as follows:
 
-  -stealability(self) - calculates the price divided by the weight, and then returns a message:
-   if the ratio is less than 0.5 return "Not so stealable..."
-   if it is greater or equal to 0.5 but less than 1.0 return "Kinda stealable."
-   otherwise return "Very stealable!"
+  stealability(self) - calculates the price divided by the weight, and then returns a message:
+      if the ratio is less than 0.5 return "Not so stealable..."
+      if it is greater or equal to 0.5 but less than 1.0 return "Kinda stealable."
+      otherwise return "Very stealable!"
    
   -explode(self) - calculates the flammability times the weight, and then returns a message:
-   if the product (result of the multiplication operation) is less than 10 return "...fizzle."
-   if it is greater or equal to 10 but less than 50 return "...boom!"
-   and otherwise return "...BABOOM!!"
+      if the product (result of the multiplication operation) is less than 10 return "...fizzle."
+      if it is greater or equal to 10 but less than 50 return "...boom!"
+      and otherwise return "...BABOOM!!"
    
 
 PART THREE INSTRUCTIONS:
