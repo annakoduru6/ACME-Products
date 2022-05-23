@@ -4,6 +4,7 @@ This was a "mock" situation as an employee of Acme Corporation looking for ways 
 
 
 PART ONE INSTRUCTIONS:
+
 Everything Acme sells is considered a "Product", and must have the following attributes (variables that live "inside" the class):
 
   -name (string with no default)
@@ -21,6 +22,7 @@ method. This all was tested in a Python REPL and saved in the acme.py file.
 
 
 PART TWO INSTRUCTIONS:
+
 Create methods in your class as follows:
 
   -stealability(self) - calculates the price divided by the weight, and then returns a message:
@@ -35,17 +37,24 @@ Create methods in your class as follows:
    
 
 PART THREE INSTRUCTIONS:
+
 Make a child class called BoxingGlove that inherits from Product named BoxingGlove and does the following:
 
   -Change the default weight to 10 (but leave other defaults unchanged)
+  
   -Override the explode method to always return "...it's a glove."
+  
   -Add a punch method that returns: 
+  
       "That tickles." if the weight is below 5
+      
       "Hey that hurt!" if the weight is greater or equal to 5 but less than 15
+      
       "OUCH!" otherwise
 
 
 PART FOUR INSTRUCTIONS:
+
 Use the Product and BoxingGlove classes to write an acme_report.py module to generate random products and print a summary of them. For the purposes of these functions we will only use the Product class.
 Your module should include two functions:
 
